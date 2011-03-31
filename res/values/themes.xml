@@ -1,0 +1,155 @@
+<resources>
+    <style name="Espresso" parent="@android:style/Theme" >
+
+        <!-- HTC TabSwitchWidget style -->
+        <item name="com_htc_widget_tabSwitchStyle">@style/HtcTabSwitchWidget</item>
+
+        <!-- htc: listview -->
+        <item name="com_htc_widget_listViewStyle">@style/HtcListViewWidget</item>
+
+        <!-- htc: taskbar -->
+        <item name="com_htc_widget_taskBarStyle">@style/HtcTaskBarStyle</item>
+
+        <!-- htc: buttonBar -->
+        <item name="com_htc_widget_buttonBarImageButtonStyle">@style/HtcButtonBarImageButtonStyle</item>
+        <item name="com_htc_widget_buttonBarButtonStyle">@style/HtcButtonBarButtonStyle</item>
+        <item name="com_htc_widget_buttonLeft">@style/HtcButtonBarLeftButtonStyle</item>
+        <item name="com_htc_widget_buttonRight">@style/HtcButtonBarRightButtonStyle</item>
+        <item name="com_htc_widget_buttonMiddle">@style/HtcButtonBarMiddleButtonStyle</item>
+        <item name="com_htc_widget_imageButtonLeft">@style/HtcButtonBarLeftImageButtonStyle</item>
+        <item name="com_htc_widget_imageButtonRight">@style/HtcButtonBarRightImageButtonStyle</item>
+        <item name="com_htc_widget_imageButtonMiddle">@style/HtcButtonBarMiddleImageButtonStyle</item>
+        <item name="com_htc_widget_buttonBarStyle">@style/HtcButtonBarStyle</item>
+
+        <!-- HTC ActionBar style -->
+        <item name="com_htc_widget_actionBarStyle">@style/HtcActionBarWidget</item>
+
+        <!-- HTC Title style -->
+        <item name="com_htc_widget_titleBarStyle">@style/HtcTitleBarStyle</item>
+        <item name="com_htc_widget_titleInputStyle">@style/HtcTitleInputStyle</item>
+        <item name="com_htc_widget_titleSearchStyle">@style/HtcTitleSearchStyle</item>
+
+        <item name="com_htc_widget_buttonStyle">@style/HtcButtonStyle</item>
+
+        <!-- htc: bubbletext -->
+        <item name="com_htc_widget_bubbleTextStyle">@style/HtcBubbleTextStyle</item>
+
+        <!-- htc: rosie_button_bar -->
+        <item name="com_htc_widget_rosieButtonBarStyle">@style/HtcRosieButtonBarStyle</item>
+
+        <!-- HTC AlertDialog style -->
+        <item name="com_htc_widget_alertDialogStyle">@style/RosieAlertDialog</item>
+
+        <!-- HTC EditText style -->
+        <item name="com_htc_widget_edittextStyle">@style/htcEditTextStyle</item>
+        <item name="com_htc_widget_autocompletetextviewStyle">@style/htcAutoCompleteTextViewStyle</item>
+
+        <item name="android:checkboxStyle">@style/RosieWidget.Button.CompoundButton.CheckBox</item>
+        <item name="android:radioButtonStyle">@style/RosieWidget.Button.CompoundButton.RadioButton</item>
+        <item name="android:buttonStyle">@style/RosieWidget.Button</item>
+        <item name="android:buttonStyleSmall">@style/RosieWidget.Button.Small</item>
+        <item name="android:buttonStyleInset">@style/RosieWidget.Button.Inset</item>
+        <item name="android:buttonStyleToggle">@style/RosieToggleButton</item>
+        <item name="android:listViewStyle">@style/RosieWidget.ListView</item>
+        <item name="android:listViewWhiteStyle">@style/RosieWidget.ListView.White</item>
+        <item name="android:gridViewStyle">@style/RosieWidget.GridView</item>
+
+        <!--item name="android:buttonStyleTimePickerUp">@style/RosieTimePickerUpButton</item-->
+        <!--item name="android:buttonStyleTimePickerDown">@style/RosieTimePickerDownButton</item-->
+
+        <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio</item>
+
+        <item name="com_tmobile_framework_expandedMenuTheme">@style/Rosie.ExpandedMenu</item>
+        <item name="com_tmobile_framework_iconMenuTheme">@style/Rosie.IconMenu</item>
+
+        <item name="android:spinnerStyle">@style/RosieWidget.Spinner</item>
+        <item name="android:spinnerDropDownItemStyle">@style/RosieWidget.DropDownItem.Spinner</item>
+        <item name="android:seekBarStyle">@style/RosieWidget.SeekBar</item>
+        <item name="android:ratingBarStyle">@style/RosieWidget.RatingBar</item>
+        <item name="android:ratingBarStyleIndicator">@style/RosieWidget.RatingBar.Indicator</item>
+        <item name="android:ratingBarStyleSmall">@style/RosieWidget.RatingBar.Small</item>
+        <item name="android:starStyle">@style/RosieWidget.Button.CompoundButton.Star</item>
+        <item name="android:imageButtonStyle">@style/RosieWidget.ImageButton</item>
+        <item name="android:editTextStyle">@style/RosieWidget.EditText</item>
+        <!--item name="android:timePickerInputStyle">@style/RosieTimePickerInput</item-->
+        <item name="android:autoCompleteTextViewStyle">@style/RosieWidget.AutoCompleteTextView</item>
+        <item name="android:textViewStyle">@style/RosieWidget.TextView</item>
+
+        <item name="android:tabWidgetStyle">@style/RosieWidget.TabWidget</item>
+        <item name="android:expandableListViewStyle">@style/RosieWidget.ExpandableListView</item>
+
+	<!-- Progress bars -->
+        <item name="android:progressBarStyle">@style/RosieWidget.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@style/RosieWidget.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@style/RosieWidget.ProgressBar.Small</item>
+        <item name="android:progressBarStyleSmallTitle">@style/RosieWidget.ProgressBar.Small.Title</item>
+        <item name="android:progressBarStyleLarge">@style/RosieWidget.ProgressBar.Large</item>
+
+        <!-- com.tmobile.theme -->
+        <item name="com_tmobile_theme_colorPrimary">?attr/com_tmobile_faves_backgroundTint</item>
+        <item name="com_tmobile_theme_colorSecondary">@color/color_secondary</item>
+
+        <!-- com.tmobile.faves -->
+        <item name="com_tmobile_faves_backgroundTint">@color/faves_tint</item>
+        <item name="com_tmobile_faves_faveButtonBarStyle">@style/FaveButtonBarStyle</item>
+        <item name="com_tmobile_faves_gridSelectedBorderColor">@color/faves_grid_border</item>
+
+
+        <!-- com.tmobile.widget -->
+        <item name="com_tmobile_widget_bigSplitButtonRightStyle">@style/BigSplitButtonRightStyle</item>
+        <item name="com_tmobile_widget_bigSplitButtonLeftStyle">@style/BigSplitButtonLeftStyle</item>
+
+
+        <!-- Launcher Styles -->
+        <item name="com_android_launcher_workspaceIconStyleLandscape">@style/com_android_launcher_WorkspaceIcon.Landscape</item>
+        <item name="com_android_launcher_workspaceIconStylePortrait">@style/com_android_launcher_WorkspaceIcon.Portrait</item>
+        <item name="com_android_launcher_allAppsGridViewStyle">@style/com_android_launcher_AllAppsGridView</item>
+
+        <!-- com.android.contacts styles -->
+        <item name="com_android_contacts_dialpadButtonDeleteStyle">@style/com_android_contacts_DialpadButtonDelete</item>
+        <item name="com_android_contacts_dialpadButtonDeleteActiveStyle">@style/com_android_contacts_DialpadButtonDeleteActive</item>
+        <item name="com_android_contacts_dialpadEditTextStyle">@style/com_android_contacts_DialpadEditText</item>
+        <item name="com_android_contacts_dialpadEditTextActiveStyle">@style/com_android_contacts_DialpadEditTextActive</item>
+
+        <!-- HTC lock_screen_bar -->
+        <item name="com_htc_widget_lockScreenBarStyle">@style/HtcLockScreenBarStyle</item>
+
+        <!-- htc: rosie style -->
+        <item name="com_htc_widget_rosieStyle">@style/HtcRosieStyle</item>
+    </style>
+
+    <style name="Rosie.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:buttonStyle">@style/RosieWidget.Button</item>
+        <item name="android:editTextStyle">@style/RosieWidget.EditText</item>
+    </style>
+
+    <style name="Rosie.Dialog.Alert" parent="@android:style/Theme.Dialog.Alert">
+        <item name="android:listViewStyle">@style/RosieWidget.ListView.White.Dialog</item>
+        <item name="android:buttonStyle">@style/RosieWidget.Button</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/btn_check</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/btn_radio</item>
+        <item name="android:progressBarStyle">@style/RosieWidget.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@style/RosieWidget.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@style/RosieWidget.ProgressBar.Small</item>
+        <item name="android:progressBarStyleSmallTitle">@style/RosieWidget.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLarge">@style/RosieWidget.ProgressBar.Large</item>
+        <!--item name="android:timePickerInputStyle">@style/RosieTimePickerInput</item-->
+        <!--item name="android:buttonStyleTimePickerUp">@style/RosieTimePickerUpButton</item-->
+        <!--item name="android:buttonStyleTimePickerDown">@style/RosieTimePickerDownButton</item-->
+    </style>
+
+    <style name="Rosie.SearchBar" parent="@android:style/Theme.SearchBar">
+        <item name="android:buttonStyle">@style/RosieWidget.Button</item>
+        <item name="android:autoCompleteTextViewStyle">@style/RosieWidget.AutoCompleteTextView</item>
+    </style>
+
+    <style name="Rosie.ExpandedMenu" parent="@android:style/Theme.ExpandedMenu">
+        <item name="android:listViewStyle">@style/RosieWidget.ListView.Menu</item>
+    </style>
+
+    <style name="Rosie.IconMenu" parent="@android:style/Theme.IconMenu">
+        <item name="android:itemBackground">@drawable/menu_selector</item>
+    </style>
+</resources>

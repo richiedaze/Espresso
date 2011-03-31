@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_window_focused="false"
+          android:drawable="@drawable/big_button_right_on_rest" />
+    <item android:state_checked="false" android:state_window_focused="false"
+          android:drawable="@drawable/big_button_right_rest" />
+
+    <item android:state_checked="true" android:state_pressed="true"
+          android:drawable="@drawable/big_button_right_on_press" />
+    <item android:state_checked="false" android:state_pressed="true"
+          android:drawable="@drawable/big_button_right_press" />
+
+    <item android:state_checked="true" android:state_focused="true"
+          android:drawable="@drawable/big_button_right_on_selected" />
+    <item android:state_checked="false" android:state_focused="true"
+          android:drawable="@drawable/big_button_right_selected" />
+
+    <item android:state_checked="false" android:drawable="@drawable/big_button_right_rest" />
+    <item android:state_checked="true" android:drawable="@drawable/big_button_right_on_rest" />
+</selector>

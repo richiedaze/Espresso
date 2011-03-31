@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<resources>
+    <!-- com.tmobile.theme -->
+    <attr name="com_tmobile_theme_colorPrimary" format="reference" />
+    <attr name="com_tmobile_theme_colorSecondary" format="reference" />
+
+    <!-- com.tmobile.faves -->
+    <attr name="com_tmobile_faves_backgroundTint" format="reference" />
+    <attr name="com_tmobile_faves_faveButtonBarStyle" format="reference" />
+    <attr name="com_tmobile_faves_faveButtonBarLeftBackground" format="reference" />
+    <attr name="com_tmobile_faves_faveButtonBarRightBackground" format="reference" />
+    <attr name="com_tmobile_faves_faveButtonBarCenterBackground" format="reference" />
+    <attr name="com_tmobile_faves_gridSelectedBorderColor" format="reference" />
+
+    <!-- com.tmobile.widget -->
+    <attr name="com_tmobile_widget_buttonBarStyle" format="reference" />
+
+    <!-- com.android.server.status -->
+    <!--attr name="com_android_server_status_latestItemView" format="reference" /-->
+
+    <!-- com.android.contacts -->
+    <attr name="com_android_contacts_dialpadButtonDeleteStyle" format="reference" />
+    <attr name="com_android_contacts_dialpadButtonDeleteActiveStyle" format="reference" />
+    <attr name="com_android_contacts_dialpadEditTextStyle" format="reference" />
+    <attr name="com_android_contacts_dialpadEditTextActiveStyle" format="reference" />
+
+    <!-- com.android.launcher -->
+    <attr name="com_android_launcher_handleViewStyle" format="reference" />
+    <attr name="com_android_launcher_workspaceIconStyleLandscape" format="reference" />
+    <attr name="com_android_launcher_workspaceIconStylePortrait" format="reference" />
+    <attr name="com_android_launcher_allAppsGridViewStyle" format="reference" />
+
+    <!-- com.tmobile.framework -->
+    <attr name="com_tmobile_framework_iconMenuTheme" format="reference" />
+    <attr name="com_tmobile_framework_expandedMenuTheme" format="reference" />
+
+    <!-- com.tmobile.widget -->
+    <attr name="com_tmobile_widget_bigSplitButtonLeftStyle" format="reference" />
+    <attr name="com_tmobile_widget_bigSplitButtonRightStyle" format="reference" />
+
+    <!-- com.htc.widget -->
+    <attr name="com_htc_widget_tabSwitchStyle" format="reference" />
+    <attr name="com_htc_widget_listViewStyle" format="reference" />
+    <attr name="com_htc_widget_taskBarStyle" format="reference" />
+    <attr name="com_htc_widget_buttonBarImageButtonStyle" format="reference" />
+    <attr name="com_htc_widget_buttonBarButtonStyle" format="reference" />
+    <attr name="com_htc_widget_buttonStyle" format="reference" />
+    <attr name="com_htc_widget_buttonLeft" format="reference" />
+    <attr name="com_htc_widget_buttonRight" format="reference" />
+    <attr name="com_htc_widget_buttonMiddle" format="reference" />
+    <attr name="com_htc_widget_imageButtonLeft" format="reference" />
+    <attr name="com_htc_widget_imageButtonRight" format="reference" />
+    <attr name="com_htc_widget_imageButtonMiddle" format="reference" />
+    <attr name="com_htc_widget_buttonBarStyle" format="reference" />
+    <attr name="com_htc_widget_actionBarStyle" format="reference" />
+    <attr name="com_htc_widget_titleBarStyle" format="reference" />
+    <attr name="com_htc_widget_titleInputStyle" format="reference" />
+    <attr name="com_htc_widget_titleSearchStyle" format="reference" />
+    <attr name="com_htc_widget_bubbleTextStyle" format="reference" />
+    <attr name="com_htc_widget_rosieButtonBarStyle" format="reference" />
+    <attr name="com_htc_widget_rosieStyle" format="reference" />
+    <attr name="com_htc_widget_alertDialogStyle" format="reference" />
+    <attr name="com_htc_widget_lockScreenBarStyle" format="reference" />
+    <attr name="com_htc_widget_edittextStyle" format="reference" />
+    <attr name="com_htc_widget_autocompletetextviewStyle" format="reference" />
+</resources>

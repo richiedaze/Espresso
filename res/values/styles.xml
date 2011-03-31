@@ -1,0 +1,320 @@
+
+<resources>
+    <!-- Global Theme Styles -->
+    <eat-comment />
+
+    <style name="RosieWidget" parent="android:style/Widget">
+    </style>
+
+    <style name="RosieWidget.Button" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:paddingTop">7px</item>
+        <item name="android:paddingBottom">7px</item>
+    </style>
+
+    <style name="RosieWidget.Button.Small">
+        <item name="android:background">@drawable/btn_default_small</item>
+    </style>
+
+    <style name="RosieWidget.Button.StatusBar">
+        <item name="android:background">@drawable/btn_default_status_bar</item>
+    </style>
+
+    <style name="RosieWidget.Button.Inset">
+        <item name="android:background">@drawable/button_inset</item>
+    </style>
+
+    <style name="RosieWidget.Button.CompoundButton" parent="android:style/Widget.CompoundButton">
+    </style>
+
+    <style name="RosieWidget.Button.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/btn_check_label_background</item>
+        <item name="android:button">@drawable/btn_check</item>
+    </style>
+
+    <style name="RosieWidget.Button.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/btn_radio_label_background</item>
+        <item name="android:button">@drawable/btn_radio</item>
+    </style>
+
+    <style name="RosieWidget.Button.CompoundButton.Star">
+        <item name="android:background">@drawable/btn_star_label_background</item>
+        <item name="android:button">@drawable/btn_star</item>
+    </style>
+
+    <style name="RosieToggleButton" parent="android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/button_toggle</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RosieWidget.ProgressBar" parent="android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_medium</item>
+    </style>
+
+    <style name="RosieWidget.ProgressBar.Large" parent="android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@drawable/progress_large</item>
+    </style>
+
+    <style name="RosieWidget.ProgressBar.Small" parent="android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/progress_small</item>
+    </style>
+
+    <style name="RosieWidget.ProgressBar.Small.Title" parent="android:style/Widget.ProgressBar.Small.Title">
+        <item name="android:indeterminateDrawable">@drawable/progress_small_titlebar</item>
+    </style>
+
+    <style name="RosieWidget.ProgressBar.Horizontal" parent="android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal</item>
+    </style>
+
+    <style name="RosieWidget.SeekBar" parent="android:style/Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_horizontal</item>
+        <item name="android:thumb">@drawable/seek_thumb</item>
+    </style>
+
+    <style name="RosieWidget.RatingBar" parent="android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_full</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_full</item>
+    </style>
+
+    <style name="RosieWidget.RatingBar.Indicator" parent="android:style/Widget.RatingBar.Indicator">
+        <item name="android:progressDrawable">@drawable/ratingbar</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar</item>
+    </style>
+
+    <style name="RosieWidget.RatingBar.Small" parent="android:style/Widget.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/ratingbar_small</item>
+        <item name="android:indeterminateDrawable">@drawable/ratingbar_small</item>
+    </style>
+
+    <style name="RosieWidget.TextView" parent="android:style/Widget.TextView">
+        <item name="android:textColorHighlight">@color/color_primary_focus</item>
+    </style>
+
+    <style name="RosieWidget.TextView.ListSeparator" parent="android:style/Widget.TextView.ListSeparator">
+        <item name="android:background">@drawable/dark_header</item>
+    </style>
+
+    <style name="RosieWidget.EditText" parent="android:style/Widget.EditText">
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:textColorHighlight">#fff4a644</item>
+    </style>
+
+    <!--style name="RosieTimePickerInput" parent="android:style/Widget.EditText.TimePicker">
+        <item name="android:background">@drawable/timepicker_input</item>
+    </style-->
+
+    <style name="RosieWidget.ImageButton" parent="android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/btn_default</item>
+    </style>
+
+    <style name="RosieWidget.AutoCompleteTextView" parent="android:style/Widget.AutoCompleteTextView">
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:dropDownSelector">@drawable/list_selector_background</item>
+        <item name="android:popupBackground">@drawable/spinner_dropdown_background</item>
+        <item name="android:textColorHighlight">@color/color_primary_focus</item>
+    </style>
+
+    <style name="RosieWidget.Spinner" parent="android:style/Widget.Spinner">
+        <item name="android:background">@drawable/btn_dropdown</item>
+        <item name="android:listSelector">@drawable/list_selector_background</item>
+    </style>
+
+    <style name="RosieWidget.DropDownItem.Spinner" parent="android:style/Widget.DropDownItem.Spinner">
+        <item name="android:checkMark">@drawable/btn_radio</item>
+    </style>
+
+    <style name="RosieWidget.ListView" parent="android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/list_selector_background</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+
+    <style name="RosieWidget.ListView.White" parent="android:style/Widget.ListView.White">
+        <item name="android:listSelector">@drawable/list_selector_background</item>
+    </style>
+
+    <style name="RosieWidget.ListView.Menu" parent="android:style/Widget.ListView.Menu">
+        <item name="android:listSelector">@drawable/menu_selector</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+
+    <style name="RosieWidget.ListView.White.Dialog">
+    </style>
+
+    <style name="RosieWidget.ExpandableListView" parent="android:style/Widget.ExpandableListView">
+        <item name="android:listSelector">@drawable/list_selector_background</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+
+    <style name="RosieWidget.GridView" parent="android:style/Widget.GridView">
+        <item name="android:listSelector">@drawable/grid_selector_background</item>
+    </style>
+
+    <style name="RosieWidget.TabWidget" parent="android:style/Widget.TabWidget">
+        <item name="android:background">@android:color/background_dark</item>
+    </style>
+
+    <style name="RosieTimePickerUpButton">
+        <item name="android:background">@drawable/timepicker_up_btn</item>
+    </style>
+
+    <style name="RosieTimePickerDownButton">
+        <item name="android:background">@drawable/timepicker_down_btn</item>
+    </style>
+
+    <style name="StatusBarItemTextSmall">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#993d58</item>
+
+    </style>
+
+    <style name="StatusBarItemTextMedium">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#26980c</item>
+    </style>
+
+    <style name="com_android_launcher_WorkspaceIcon">
+        <item name="android:background">@drawable/launcher_shortcut_selector</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:shadowColor">#000</item>
+    </style>
+
+    <style name="com_android_launcher_WorkspaceIcon.Portrait">
+    </style>
+
+    <style name="com_android_launcher_WorkspaceIcon.Landscape">
+    </style>
+
+    <style name="com_android_launcher_AllAppsGridView" parent="android:style/Widget.GridView">
+        <item name="android:listSelector">@drawable/launcher_shortcut_selector</item>
+    </style>
+
+    <style name="com_android_contacts_DialpadButtonDelete" parent="@android:style/Widget.Button.Inset">
+        <!--item name="android:background">@drawable/btn_dial_delete</item>
+        <item name="android:src">@drawable/ic_delete_phone_number</item-->
+    </style>
+
+    <style name="com_android_contacts_DialpadButtonDeleteActive">
+        <!--item name="android:background">@drawable/btn_dial_delete_active</item-->
+    </style>
+
+    <style name="com_android_contacts_DialpadEditText" parent="@android:style/Widget.EditText">
+        <!--item name="android:background">@drawable/btn_dial_textfield</item>
+        <item name="android:textSize">28sp</item-->
+        <item name="android:textColor">@color/dialer_button_text</item>
+    </style>
+
+    <style name="com_android_contacts_DialpadEditTextActive">
+        <!--item name="android:background">@drawable/btn_dial_textfield_active</item-->
+    </style>
+
+    <style name="BigSplitButtonRightStyle">
+        <item name="android:background">@drawable/split_big_btn_right</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="BigSplitButtonLeftStyle">
+        <item name="android:background">@drawable/split_big_btn_left</item>
+    </style>
+
+    <style name="HtcTabSwitchWidget">
+    </style>
+
+    <style name="RosieAlertDialog">
+    </style>
+
+    <!-- htc: listview / gridview -->
+    <style name="HtcListViewWidget">
+        <item name="android:background">@drawable/gradient</item>
+    </style>
+
+    <!-- HTC Title Bar Style -->
+    <style name="HtcTitleBarStyle">
+        <item name="android:background">@drawable/common_titlebar_sublevel</item>
+    </style>
+
+    <style name="HtcTitleInputStyle">
+        <item name="android:background">@drawable/common_panel_input_base</item>
+    </style>
+
+    <style name="HtcTitleSearchStyle">
+        <item name="android:background">@drawable/common_panel_input_base</item>
+    </style>
+
+    <!-- htc: taskbar -->
+    <style name="HtcTaskBarStyle">
+        <item name="android:background">@drawable/common_main_panel_navbar</item>
+    </style>
+
+    <style name="HtcActionBarWidget">
+    </style>
+
+    <style name="HtcButtonBarStyle">
+        <item name="android:background">@drawable/common_main_panel_navbar</item>
+    </style>
+
+    <style name="HtcButtonBarButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/smile_button</item>
+    </style>
+
+    <style name="HtcButtonBarImageButtonStyle" parent="android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/command_bar_btn</item>
+    </style>
+
+    <style name="HtcButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/common_b_button_small</item>
+    </style>
+
+    <style name="HtcButtonBarLeftButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/common_mainnav_center_left</item>
+    </style>
+    <style name="HtcButtonBarRightButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/common_mainnav_center_right</item>
+    </style>
+    <style name="HtcButtonBarMiddleButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:background">@drawable/common_mainnav_center_selector</item>
+    </style>
+    <style name="HtcButtonBarLeftImageButtonStyle" parent="android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/common_mainnav_center_left</item>
+    </style>
+    <style name="HtcButtonBarRightImageButtonStyle" parent="android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/common_mainnav_center_right</item>
+    </style>
+    <style name="HtcButtonBarMiddleImageButtonStyle" parent="android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/common_mainnav_center_selector</item>
+    </style>
+    <!-- htc: lock_screen_bar -->
+    <style name="HtcLockScreenBarStyle">
+    </style>
+
+    <!-- htc: Rosie style -->
+    <style name="HtcRosieStyle">
+    </style>
+
+    <!-- htc: bubbletext -->
+    <style name="HtcBubbleTextStyle">
+    </style>
+
+    <!-- htc: rosie_button_bar -->
+    <style name="HtcRosieButtonBarStyle">
+    </style>
+
+    <style name="htcEditTextStyle" parent="android:style/Widget.EditText">
+        <item name="android:background">@drawable/common_black_inputfield_view</item>
+    </style>
+
+    <style name="htcAutoCompleteTextViewStyle" parent="android:style/Widget.AutoCompleteTextView">
+        <item name="android:background">@drawable/common_black_inputfield_view</item>
+    </style>
+
+    <!-- T-Mobile: faves -->
+    <style name="FaveButtonBarStyle">
+        <item name="com_tmobile_faves_faveButtonBarLeftBackground">@drawable/button_bar_left</item>
+        <item name="com_tmobile_faves_faveButtonBarRightBackground">@drawable/button_bar_right</item>
+        <item name="com_tmobile_faves_faveButtonBarCenterBackground">@drawable/button_bar_center</item>
+    </style>
+</resources>

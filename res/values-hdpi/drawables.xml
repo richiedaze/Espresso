@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<drawable name="common_label_color05">@drawable/mail_unread</drawable>
+</resources>
