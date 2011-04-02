@@ -78,7 +78,7 @@
     <color name="calendar_busybit_color">#FF0CDF2A</color>
 
     <!-- Contacts -->
-    <color name="contacts_color_search_highlight_bg">#2695c5</color>
+    <color name="contacts_color_search_highlight_bg">#2695C5</color>
 
     <!-- Browser -->
     <color name="bookmark_selector_color_pressed">#55E5E5E5</color>
@@ -87,6 +87,6 @@
     <color name="text_selection_highlight">@color/contacts_color_search_highlight_bg</color>
 
     <!-- Faves -->
-    <color name="faves_tint">#2695c5</color>
+    <color name="faves_tint">#2695C5</color>
     <color name="faves_grid_border">@color/contacts_color_search_highlight_bg</color>
 </resources>
